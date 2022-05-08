@@ -4,8 +4,8 @@ Cryptopy is our final project for NYU DS-GA.3001 Advanced Python programming.
 
 ## How to run
 
-- Run the following to activate virtual environment:
-`source venv/bin/activate`
+- Run the following to install required packages:
+` pip3 install -r requirements.txt`
 
 - Run `run.py` to start the program:
 `python3 run.py`
