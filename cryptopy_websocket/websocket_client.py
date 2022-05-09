@@ -26,7 +26,7 @@ class WebsocketClient:
         self._loop: AbstractEventLoop = None
 
         self._proxy: str = ""
-        self._ping_interval: int = 60  # 秒
+        self._ping_interval: int = 60  # seconds
         self._header: dict = {}
 
         self._last_sent_text: str = ""

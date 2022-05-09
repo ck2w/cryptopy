@@ -2,7 +2,13 @@
 
 Cryptopy is our final project for NYU DS-GA.3001 Advanced Python programming.
 
-## How to run
+
+
+[![UI](/figures/UI.png)](https://www.youtube.com/watch?v=UmX4kyB2wfghttps://www.youtube.com/watch?v=MSD3RArbnnQ)
+
+[Demo Video](https://link-url-here.orghttps://www.youtube.com/watch?v=MSD3RArbnnQ)
+
+## How to run main program
 
 - Run the following to install required packages:
 ` pip3 install -r requirements.txt`
@@ -23,3 +29,15 @@ Cryptopy is our final project for NYU DS-GA.3001 Advanced Python programming.
   - vt_symbols: BTC-USDT.OKEX,BTC-USDT-SWAP.OKEX
 - Click **Init** - **Start**
 
+
+## How to download historical minute data
+Run the following to download 
+`python download_data/record_history_multithread.py`
+
+## How to record tick data
+- Click **Tools** - **DataRecorder**
+- Input **BTC-USDT.OKEX** to Local codes
+- Click **Add** next to **Tick Recorder**
+
+## How to train a new model
+- Run **Model.ipynb** in **Model** folder

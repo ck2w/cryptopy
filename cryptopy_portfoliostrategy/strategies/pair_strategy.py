@@ -154,7 +154,8 @@ class PairStrategy(StrategyTemplate):
         # xgboost
         self.alpha = self.model.predict(xgb.DMatrix(feature_values))[0]
 
-        self.run_strategy1(self.alpha)
+        if self.trading == True:
+            self.run_strategy1(self.alpha)
 
     def run_strategy1(self, alpha):
         ## strategy
