@@ -6,7 +6,7 @@ Cryptopy is our final project for NYU DS-GA.3001 Advanced Python programming.
 
 [![UI](/figures/UI.png)](https://www.youtube.com/watch?v=UmX4kyB2wfghttps://www.youtube.com/watch?v=MSD3RArbnnQ)
 
-[Demo Video](https://link-url-here.orghttps://www.youtube.com/watch?v=MSD3RArbnnQ)
+[Demo Video](https://youtu.be/MSD3RArbnnQ)
 
 ## How to run main program
 
